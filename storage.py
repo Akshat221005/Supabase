@@ -5,7 +5,7 @@ import os
 load_dotenv()
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxoa2toaHFrcW10YmVlc3dkanVxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MzI1NDEyOSwiZXhwIjoyMDg4ODMwMTI5fQ.nl9vWHJwDlVgzzJbhxAAigD8lGueGk-kSeJ9p238KkQ"
+SUPABASE_KEY = ""
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 # -------------------------
